@@ -8,7 +8,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 
 > Built for modern web apps that demand both security and a seamless user experience.
 
----
+
 
 ## 🚀 Features
 
@@ -22,7 +22,6 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 - 🧠 Form Validation via Formik + Yup  
 - 🛡️ Access Control with Middleware and Role Checks  
 
----
 
 ## 📦 Tech Stack
 
@@ -40,7 +39,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 | **Cookies**     | Store access & refresh tokens     |
 | **Tailwind CSS**| For styling                      |
 
----
+
 
 ## 🧪 Functionalities Included
 
@@ -54,7 +53,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 - 🚫 Protected routes using middleware  
 - 🧭 Responsive navbar & sidebar for authenticated users  
 
----
+
 
 ## ⚙️ Getting Started
 
@@ -97,7 +96,6 @@ cd ../frontend
 npm install
 ```
 
----
 
 ## 🛡️ Authentication Flow Overview
 
