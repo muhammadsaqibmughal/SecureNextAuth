@@ -1,9 +1,6 @@
-Here’s your content converted into a well-formatted **GitHub README.md** file with proper Markdown syntax, headings, line breaks, and styling to ensure it renders correctly on GitHub:
-
-
+# 🔐 SecureNextAuth
 
 ````markdown
-# 🔐 SecureNextAuth
 
 A **complete, production-ready authentication system** built using **Node.js**, **Next.js**, **Passport.js**, **JWT**, **MongoDB**, **Formik**, and **Yup** with **Tailwind CSS**.
 
@@ -11,7 +8,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 
 > Built for modern web apps that demand both security and a seamless user experience.
 
-
+---
 
 ## 🚀 Features
 
@@ -25,25 +22,25 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 - 🧠 Form Validation via Formik + Yup  
 - 🛡️ Access Control with Middleware and Role Checks  
 
-
+---
 
 ## 📦 Tech Stack
 
-| Technology       | Purpose                             |
-|------------------|-------------------------------------|
-| **Next.js**      | Frontend framework (React-based)    |
-| **Node.js**      | Backend runtime environment         |
-| **Express.js**   | API routing and middleware          |
-| **Passport.js**  | Authentication strategy management  |
-| **JWT**          | Token-based authentication          |
-| **MongoDB**      | Database for user and token storage |
-| **Mongoose**     | MongoDB ODM                         |
-| **Formik + Yup** | Form state and validation handling  |
-| **Nodemailer**   | Email sending (OTP & Reset links)   |
-| **Cookies**      | Store access & refresh tokens       |
-| **Tailwind CSS** | For designing                       |
+| Technology      | Purpose                            |
+| --------------- | --------------------------------- |
+| **Next.js**     | Frontend framework (React-based)  |
+| **Node.js**     | Backend runtime environment       |
+| **Express.js**  | API routing and middleware        |
+| **Passport.js** | Authentication strategy management|
+| **JWT**         | Token-based authentication        |
+| **MongoDB**     | Database for user and token storage|
+| **Mongoose**    | MongoDB ODM                      |
+| **Formik + Yup**| Form state and validation handling|
+| **Nodemailer**  | Email sending (OTP & Reset links) |
+| **Cookies**     | Store access & refresh tokens     |
+| **Tailwind CSS**| For styling                      |
 
-
+---
 
 ## 🧪 Functionalities Included
 
@@ -55,9 +52,9 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 - 🔑 Change password (current password required)  
 - 👁️ View user profile  
 - 🚫 Protected routes using middleware  
-- 🧭 UI: Responsive navbar & sidebar for authenticated users  
+- 🧭 Responsive navbar & sidebar for authenticated users  
 
-
+---
 
 ## ⚙️ Getting Started
 
@@ -75,7 +72,7 @@ cd backend
 npm install
 ```
 
-#### Create a `.env` file in the `backend` root:
+Create a `.env` file in the backend root with the following variables:
 
 ```env
 PORT=5000
@@ -87,7 +84,7 @@ EMAIL_PASS=your_email_password
 CLIENT_URL=http://localhost:3000
 ```
 
-#### Run the backend server:
+Run the backend server:
 
 ```bash
 nodemon index
@@ -100,16 +97,17 @@ cd ../frontend
 npm install
 ```
 
+---
 
 ## 🛡️ Authentication Flow Overview
 
-* On registration, the user receives a One-Time OTP email for account verification.
-* After verifying, they can log in and receive a **JWT access token (short-lived)** and **refresh token (stored in an HTTP-only cookie)**.
-* The refresh token is used to get new access tokens automatically.
-* Users can reset forgotten passwords securely via an email link.
-* Authenticated users can change their passwords from their profile.
+* On registration, users receive a One-Time OTP email for account verification.
+* After verifying, users can log in and receive a **JWT access token** (short-lived) and a **refresh token** (stored in an HTTP-only cookie).
+* The refresh token is used to automatically get new access tokens.
+* Users can reset forgotten passwords securely via email links.
+* Authenticated users can change passwords from their profile.
 
-
+---
 
 ## 🔐 Security Considerations
 
@@ -119,23 +117,23 @@ npm install
 * Only **verified users** can log in
 * Refresh token **rotation implemented**
 
-
+---
 
 ## 🔗 Live Demo
 
 *Coming soon...*
 
-
+---
 
 ## 🛠️ Future Improvements
 
 * ✅ Role-based access (admin/user)
 * 🌍 i18n & multi-language support
-* 📱 2FA support
+* 📱 Two-Factor Authentication (2FA) support
 * 📊 Admin dashboard for managing users
 * 🧪 Unit & integration tests
 
-
+---
 
 ## 🙌 Contributing
 
@@ -143,24 +141,21 @@ Contributions are welcome! Feel free to fork, open issues or PRs.
 
 ```bash
 # Fork the repo
-# Create your feature branch
 git checkout -b feature/new-feature
-
-# Commit your changes
-git commit -m 'Add new feature'
-
-# Push to the branch
+git commit -m "Add new feature"
 git push origin feature/new-feature
+```
 
-# Open a Pull Request
+Open a Pull Request on GitHub.
 
+---
 
 ## 📬 Contact
 
 Created by **Muhammad Saqib**
-📧 Email: [muhammadsaqib1336@gmail.com](mailto:muhammadsaqib1336@gmail.com)
+📧 [muhammadsaqib1336@gmail.com](mailto:muhammadsaqib1336@gmail.com)
 
-]
+---
 
 ## ⭐️ Support
 
