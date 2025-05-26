@@ -9,7 +9,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 
 
 
-##Features
+## Features
 
 * ✅ User Registration with OTP Email Verification
 * 🔐 Secure Login with JWT and Cookies
@@ -23,7 +23,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 
 
 
-##Tech Stack
+## Tech Stack
 
 | Technology       | Purpose                             |
 | ---------------- | ----------------------------------- |
@@ -41,7 +41,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 
 
 
-##Functionalities Included
+## Functionalities Included
 
 * ✅ Register new account with email OTP verification
 * 🔐 Login with JWT access and refresh token flow
@@ -55,7 +55,7 @@ SecureNextAuth provides end-to-end user authentication flows including **OTP ver
 
 ---
 
-##Getting Started
+## Getting Started
 
 **1. Clone the Repository**
 
