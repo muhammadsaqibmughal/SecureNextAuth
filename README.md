@@ -1,4 +1,4 @@
-# 🔐 SecureNextAuth
+ 🔐 #SecureNextAuth
 
 A **complete, production-ready authentication system** built using **Node.js**, **Next.js**, **Passport.js**, **JWT**, **MongoDB**, **Formik**, and **Yup** with **Tailwind CSS**. SecureNextAuth provides end-to-end user authentication flows including **OTP verification**, **JWT-based login**, **secure password reset**, **profile management**, and **token refresh mechanisms** using **HTTP-only cookies**.<br>
 
@@ -6,7 +6,7 @@ A **complete, production-ready authentication system** built using **Node.js**, 
 
 
 
-## 🚀 Features
+🚀 ##Features
 
 ✅ User Registration with OTP Email Verification<br>
 🔐 Secure Login with JWT and Cookies  <br>
@@ -21,7 +21,7 @@ A **complete, production-ready authentication system** built using **Node.js**, 
 <br>
 <br>
 
-## 📦 Tech Stack
+📦 ##Tech Stack
 
 | Technology      | Purpose                             |<br>
 |-----------------|-------------------------------------|<br>
@@ -41,7 +41,7 @@ A **complete, production-ready authentication system** built using **Node.js**, 
 <br>
 
 
-## 🧪 Functionalities Included
+🧪 ##Functionalities Included
 <br>
 - ✅ Register new account with email OTP verification<br>
 - 🔐 Login with JWT access and refresh token flow<br>
